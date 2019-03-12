@@ -1,11 +1,8 @@
 {
   "name": "hello-next",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,5 +10,10 @@
     "next": "^8.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   }
 }
